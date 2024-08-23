@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     };
 
-    coin(); // Llamar a la función aquí
+    coin(); 
 });
 
 
