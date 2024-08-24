@@ -1,5 +1,5 @@
 //EE7830CB-3C9B-4DD0-9F71-C493E149C57E
-//const APIKey= 'EE7830CB-3C9B-4DD0-9F71-C493E149C57E'
+const APIKey= 'EE7830CB-3C9B-4DD0-9F71-C493E149C57E'
 //const URL = ('https://rest.coinapi.io/v1/exchanges')
 
 //asi se conecta con el archivo html
@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const coin = async () => {
         try {
             const response = await fetch('https://rest.coinapi.io/v1/exchanges', {
-                method: 'GET',
-                headers: {
-                    'X-CoinAPI-Key': 'EE7830CB-3C9B-4DD0-9F71-C493E149C57E'
+                     'X-CoinAPI-Key': APIKey,
+                     'accept': 'aplication/json'
+                }
                 }
             });
 
